@@ -1,12 +1,13 @@
-html{
+html,
+body{
   font-size: 18px;
   line-height: 1.4;
-  background-color: azure;
+  background-color: white;
   font-family: Helvetica, sans-serif;
-  color: white;
+  color: black;
 }
 
-.site-container {
+.site-container{
   max-width: 960px;
   margin: 0 auto;
 }
@@ -18,7 +19,7 @@ html{
   background-size: cover;
   height: 31rem;
   display: flex;
-
+  color: white;
 }
 
 .banner{
@@ -65,7 +66,7 @@ nav p span{
 .quote{
   background-color: white;
   color: black;
-  padding: 1.5rem 5rem;
+  padding: 2rem 5rem;
   font-size: 2rem;
   line-height: 1.2;
   font-weight: bold;
@@ -74,5 +75,82 @@ nav p span{
   margin-left: 19rem;;
   position: relative;
   left: 2rem;
+}
 
+.characteristics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.characteristic{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 0 3rem;
+}
+
+.characteristic img{
+  display: flex;
+  width: 3.5rem;
+  margin: auto auto;
+}
+
+.characteristic p{
+  display: flex;
+  margin: auto auto;
+}
+
+.content .site-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.content-section{
+  width: 35%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.content-title{
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.content-text{
+  display: flex;
+  font-size: 1rem;
+}
+
+.footer{
+  background-color: azure;
+  height: 9.5rem;
+  margin-top: 5rem;
+}
+
+.footer .site-container{
+  display: flex;
+  align-items: center;
+}
+
+
+.footer img{
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
 }
